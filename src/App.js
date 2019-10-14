@@ -45,12 +45,12 @@ function App() {
                   <h2 className="titles">Projects</h2>
                 </div>
               </Cell>
-              <Cell col={6}>
+              <Cell col={6} className="project_col">
                 <div className="mel_box">
                   <img className="project_img" src={mel_wet}/>
                 </div>
               </Cell>
-              <Cell col={6}>
+              <Cell col={6} className="project_col">
                 <div className="LI_box">
                   <img className="project_img" src={LI_tube}/>
                 </div>
@@ -100,7 +100,7 @@ function App() {
                   <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 300"><defs></defs><title>Asset 9stripes</title><g id="Layer_2" data-name="Layer 2"><g transform="translate(70 60) rotate(25)" id="parallax_elements"><rect class="cls-1" width="94.3367" height="4.782"/><rect class="cls-1" y="7.347" width="94.3367" height="4.782"/><rect class="cls-1" y="14.6939" width="94.3367" height="4.782"/><rect class="cls-1" y="22.0409" width="94.3367" height="4.782"/><rect class="cls-1" y="29.3878" width="94.3367" height="4.782"/><rect class="cls-1" y="36.7348" width="94.3367" height="4.782"/><rect class="cls-1" y="44.0817" width="94.3367" height="4.782"/><rect class="cls-1" y="51.4287" width="94.3367" height="4.782"/><rect class="cls-1" y="58.7757" width="94.3367" height="4.782"/><rect class="cls-1" y="66.1226" width="94.3367" height="4.782"/><rect class="cls-1" y="73.4696" width="94.3367" height="4.782"/></g></g></svg>
                 </div>              
                 <div className="paper_box">
-                  <h2 className="papers">Engineered cell‐to‐cell signalling within growing bacterial cellulose pellicles</h2>
+                  <h2 className="papers"><a className="paper_link" href="https://www.ncbi.nlm.nih.gov/pubmed/30461206">Engineered cell‐to‐cell signalling within growing bacterial cellulose pellicles</a></h2>
                 </div>
               </Cell>
               <Cell col={12} className="paper_col">
@@ -108,7 +108,7 @@ function App() {
                   <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 300"><defs></defs><title>Asset 9stripes</title><g id="Layer_2" data-name="Layer 2"><g transform="translate(10 160) rotate(325)" id="parallax_elements"><rect class="cls-1" width="94.3367" height="4.782"/><rect class="cls-1" y="7.347" width="94.3367" height="4.782"/><rect class="cls-1" y="14.6939" width="94.3367" height="4.782"/><rect class="cls-1" y="22.0409" width="94.3367" height="4.782"/><rect class="cls-1" y="29.3878" width="94.3367" height="4.782"/><rect class="cls-1" y="36.7348" width="94.3367" height="4.782"/><rect class="cls-1" y="44.0817" width="94.3367" height="4.782"/><rect class="cls-1" y="51.4287" width="94.3367" height="4.782"/><rect class="cls-1" y="58.7757" width="94.3367" height="4.782"/><rect class="cls-1" y="66.1226" width="94.3367" height="4.782"/><rect class="cls-1" y="73.4696" width="94.3367" height="4.782"/></g></g></svg>
                 </div>               
                 <div className="paper_box">
-                  <h2 className="papers">Expression of the arsenite oxidation regulatory operon in Rhizobium sp. str. NT-26 is under the control of two promoters that respond to different environmental cues</h2>
+                  <h2 className="papers"><a className="paper_link" href="https://www.ncbi.nlm.nih.gov/pubmed/29250936">Expression of the arsenite oxidation regulatory operon in Rhizobium sp. str. NT-26 is under the control of two promoters that respond to different environmental cues</a></h2>
                 </div>
               </Cell>
               <Cell col={12} className="paper_col">
@@ -116,7 +116,7 @@ function App() {
                   <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 300"><defs></defs><title>Asset 9stripes</title><g id="Layer_2" data-name="Layer 2"><g transform="translate(80 30) rotate(70)" id="parallax_elements"><rect class="cls-1" width="94.3367" height="4.782"/><rect class="cls-1" y="7.347" width="94.3367" height="4.782"/><rect class="cls-1" y="14.6939" width="94.3367" height="4.782"/><rect class="cls-1" y="22.0409" width="94.3367" height="4.782"/><rect class="cls-1" y="29.3878" width="94.3367" height="4.782"/><rect class="cls-1" y="36.7348" width="94.3367" height="4.782"/><rect class="cls-1" y="44.0817" width="94.3367" height="4.782"/><rect class="cls-1" y="51.4287" width="94.3367" height="4.782"/><rect class="cls-1" y="58.7757" width="94.3367" height="4.782"/><rect class="cls-1" y="66.1226" width="94.3367" height="4.782"/><rect class="cls-1" y="73.4696" width="94.3367" height="4.782"/></g></g></svg>
                 </div>               
                 <div className="paper_box">
-                  <h2 className="papers">Non-linearity of the collagen triple helix in solution and implications for collagen function</h2>
+                  <h2 className="papers"><a className="paper_link" href="https://www.ncbi.nlm.nih.gov/pubmed/28533266">Non-linearity of the collagen triple helix in solution and implications for collagen function</a></h2>
                 </div>
               </Cell>                                                                                      
           </Grid>    
